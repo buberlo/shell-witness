@@ -1,0 +1,49 @@
+# Binaries and build artifacts
+/bin/
+/dist/
+/build/
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+main
+app
+shaker
+appshaker
+
+# Test and coverage output
+*.test
+*.out
+coverage.out
+coverage.html
+coverage*.out
+coverage*.html
+test-results/
+coverage/
+
+# Generated trial transcripts
+/transcripts/
+/reports/
+*.trial.md
+*.transcript.md
+trial-transcript.md
+transcript.md
+chaos-report.md
+
+# Go tooling
+vendor/
+go.work
+go.work.sum
+.gocache/
+.gotmp/
+
+# Editors and OS files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+.idea/
+.vscode/
+*.log
